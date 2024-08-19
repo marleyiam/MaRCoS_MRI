@@ -87,7 +87,7 @@ Ou
 docker exec -it {id_do_container} bash
 ```
 - Navegue até o dirtório marcos-client e execute o seguinte comando:
-```bash
+```python
 python test_server.py
 ```
 - Esse comando deverá executa uma série de testes unitários e deve realizar interações com o server, enviado sequencias de sinais para avaliar diferentes cenários.
