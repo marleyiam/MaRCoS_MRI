@@ -96,5 +96,5 @@ python test_server.py
 - Existem várious outros scripts de teste dentro do marcos-client que podem ser configurados para realizar testes utilizando esses dados.
 
 
-
+# Referências
 Para mais detalhes, acesse o artigo completo [aqui](https://ar5iv.labs.arxiv.org/html/2208.01616).
