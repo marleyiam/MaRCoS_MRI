@@ -79,15 +79,15 @@ Os mesmos passos se aplicam para a interface gráfica, sendo executados em seu d
 # Como testar
 - Uma vez que o container marcos-server estiver em execução é possível entrar dentro dele para realizar testes de API.
 - Entre no container utilizando o comando a seguir:
-- ```bash
+```bash
 docker exec -it {id_do_container} sh
-
+```
 Ou
 ```bash
 docker exec -it {id_do_container} bash
 ```
 - Navegue até o dirtório marcos-client e execute o seguinte comando:
-- ```bash
+```bash
 python test_server.py
 ```
 - Esse comando deverá executa uma série de testes unitários e deve realizar interações com o server, enviado sequencias de sinais para avaliar diferentes cenários.
