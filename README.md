@@ -81,9 +81,9 @@ Os mesmos passos se aplicam para a interface gráfica, sendo executados em seu d
 - Entre no container utilizando o comando a seguir:
 - ```bash
 docker exec -it {id_do_container} sh
-```
+
 Ou
-- ```bash
+```bash
 docker exec -it {id_do_container} bash
 ```
 - Navegue até o dirtório marcos-client e execute o seguinte comando:
