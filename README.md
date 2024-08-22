@@ -68,11 +68,11 @@ Provavelmente será necessário fazer um fork (ou PR) do projeto original e corr
 
 # Como executar
 - Tendo o Docker instalado em sua máquina execute o seguinte comando para criar a imagem do marcos-server:
-- ```bash
+```bash
 docker build -f Dockerfile -t marcos-server
 ```
 - Tendo o Docker instalado em sua máquina execute:
-- ```bash
+```bash
 docker run marcos-server
 ```
 
