@@ -27,10 +27,12 @@ O firmware FPGA e o servidor MaRCoS recebem e executam instruções de sequênci
 **Plataforma de Software:**
 O MaRCoS possui uma biblioteca cliente em Python para criação e envio de sequências, além de interfaces gráficas e textuais para programação de pulsos. A GUI permite calibrações e execução de rotinas de aquisição, sendo usada principalmente em ambientes laboratoriais.
 
-***A arquitetura do sistema MaRCoS mostra os principais componentes na pilha de software para desktop e o hardware e software embarcados no SDRLab. Existem várias maneiras de programar uma sequência, incluindo uma interface gráfica de usuário (GUI), arrays Numpy diretos e PulSeq, que todos controlam a biblioteca marcos_client. Esta se comunica com o SDRLab, executando a sequência e retornando os dados adquiridos***
+***A arquitetura do sistema MaRCoS mostra os principais componentes na pilha de software para desktop e o hardware e software embarcados no SDRLab. Existem várias maneiras de programar uma sequência, incluindo uma interface gráfica de usuário (GUI), arrays Numpy diretos e PulSeq, que todos controlam a biblioteca marcos_client. Esta se comunica com o SDRLab, executando a sequência e retornando os dados adiquiridos***
+
 ![Arquitetura do sistema MaRCoS](https://ar5iv.labs.arxiv.org/html/2208.01616/assets/x1.png)
 
 ***A arquitetura do servidor MaRCoS e do firmware FPGA no SDRLab. O servidor recebe uma sequência do PC cliente via Ethernet e a transmite para o firmware FPGA, onde é traduzida em operações de hardware sincronizadas no tempo, incluindo saídas de RF e gradiente. O firmware recebe dados dos ADCs, demodula e filtra, e os salva em buffers RX, de onde são lidos pelo servidor e enviados para o PC.***
+
 ![Arquitetura do servidor e do firmware](https://ar5iv.labs.arxiv.org/html/2208.01616/assets/x3.png)
 
 # Tutoriais
