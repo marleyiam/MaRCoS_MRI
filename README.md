@@ -1,5 +1,5 @@
 
-### MaRCoS (MAgnetic Resonance COntrol System)"
+### MaRCoS (MAgnetic Resonance COntrol System)
 
 
 A proposta do O MaRCoS é ser uma alternativa de baixo custo a alto desempenho fazendo frente as soluções proprietárias no universo dos sistemas de ressonância magnética.
